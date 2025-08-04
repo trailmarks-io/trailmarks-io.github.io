@@ -112,8 +112,8 @@ description: "Entdecke die faszinierende Geschichte der Wandersteine und wie Tra
         <!-- Quote Section -->
         <div class="bg-gray-50 rounded-2xl p-8 md:p-12 text-center">
             <blockquote class="text-2xl md:text-3xl font-medium text-gray-900 mb-6 italic">
-                "Ein Stein am Wegesrand kann der Unterschied zwischen 
-                einem verlorenen Wanderer und einem sicheren Heimweg sein."
+                > Ein Stein am Wegesrand kann der Unterschied zwischen 
+                einem verlorenen Wanderer und einem sicheren Heimweg sein.
             </blockquote>
             <cite class="text-lg text-gray-600">— Altes Wanderer-Sprichwort</cite>
         </div>
@@ -125,13 +125,10 @@ description: "Entdecke die faszinierende Geschichte der Wandersteine und wie Tra
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">
-                    Neue Wege mit Trailmarks.io
-                </h2>
-                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                    Wir stehen am Beginn einer Revolution in der Wanderwelt. Trailmarks.io kombiniert 
-                    die zeitlose Weisheit der Wandersteine mit den Möglichkeiten des digitalen Zeitalters.
-                </p>
+                ## Neue Wege mit Trailmarks.io
+
+                Wir stehen am Beginn einer Revolution in der Wanderwelt. Trailmarks.io kombiniert 
+                die zeitlose Weisheit der Wandersteine mit den Möglichkeiten des digitalen Zeitalters.
                 
                 <div class="space-y-6">
                     <div class="flex items-start space-x-4">
@@ -222,13 +219,11 @@ description: "Entdecke die faszinierende Geschichte der Wandersteine und wie Tra
 <!-- CTA Section -->
 <section class="section-padding bg-trailmark-blue">
     <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-6">
-            Seien Sie Teil der Wanderstein-Revolution
-        </h2>
-        <p class="text-xl text-blue-100 mb-8">
-            Trailmarks.io befindet sich in der Entwicklung. Bleiben Sie auf dem Laufenden 
-            und werden Sie Teil unserer Vision für die Zukunft des Wanderns.
-        </p>
+        ## Seien Sie Teil der Wanderstein-Revolution
+
+        Trailmarks.io befindet sich in der Entwicklung. Bleiben Sie auf dem Laufenden 
+        und werden Sie Teil unserer Vision für die Zukunft des Wanderns.
+
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://github.com/trailmarks-io" 
                class="bg-white text-trailmark-blue hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 inline-flex items-center justify-center">

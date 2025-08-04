@@ -112,8 +112,8 @@ description: "Discover the fascinating history of trail stones and how Trailmark
         <!-- Quote Section -->
         <div class="bg-gray-50 rounded-2xl p-8 md:p-12 text-center">
             <blockquote class="text-2xl md:text-3xl font-medium text-gray-900 mb-6 italic">
-                "A stone by the wayside can be the difference between 
-                a lost hiker and a safe journey home."
+                > A stone by the wayside can be the difference between 
+                a lost hiker and a safe journey home.
             </blockquote>
             <cite class="text-lg text-gray-600">— Ancient Hiker's Proverb</cite>
         </div>
@@ -125,13 +125,10 @@ description: "Discover the fascinating history of trail stones and how Trailmark
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 class="text-3xl md:text-4xl font-display font-bold text-gray-900 mb-6">
-                    New Paths with Trailmarks.io
-                </h2>
-                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
-                    We stand at the beginning of a revolution in the hiking world. Trailmarks.io combines 
-                    the timeless wisdom of trail stones with the possibilities of the digital age.
-                </p>
+                ## New Paths with Trailmarks.io
+
+                We stand at the beginning of a revolution in the hiking world. Trailmarks.io combines 
+                the timeless wisdom of trail stones with the possibilities of the digital age.
                 
                 <div class="space-y-6">
                     <div class="flex items-start space-x-4">
@@ -222,13 +219,11 @@ description: "Discover the fascinating history of trail stones and how Trailmark
 <!-- CTA Section -->
 <section class="section-padding bg-trailmark-blue">
     <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-4xl font-display font-bold text-white mb-6">
-            Be Part of the Trail Stone Revolution
-        </h2>
-        <p class="text-xl text-blue-100 mb-8">
-            Trailmarks.io is in development. Stay updated and become part of our vision 
-            for the future of hiking.
-        </p>
+        ## Be Part of the Trail Stone Revolution
+
+        Trailmarks.io is in development. Stay updated and become part of our vision 
+        for the future of hiking.
+
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://github.com/trailmarks-io" 
                class="bg-white text-trailmark-blue hover:bg-gray-100 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 inline-flex items-center justify-center">
