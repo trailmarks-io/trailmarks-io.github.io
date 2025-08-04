@@ -1,0 +1,15 @@
+{
+  "name": "trailmarks-homepage",
+  "version": "1.0.0",
+  "description": "Homepage for Trailmarks.io",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+    "build-css-prod": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
+    "dev": "npm run build-css & bundle exec jekyll serve --livereload",
+    "build": "npm run build-css-prod && bundle exec jekyll build"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.3.6"
+  }
+}

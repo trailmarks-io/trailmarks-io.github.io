@@ -1,0 +1,64 @@
+# Site settings
+title: Trailmarks.io
+description: "The new standard for your hiking trailmarks - Discover the story of Wandersteine"
+url: "https://trailmarks-io.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - src
+  - README.md
+
+# Include files
+include:
+  - _pages
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Languages
+languages: ["de", "en"]
+default_lang: "de"
+
+# Site navigation
+navigation:
+  de:
+    - title: "Startseite"
+      url: "/"
+    - title: "Über uns"
+      url: "/about/"
+    - title: "Kontakt"
+      url: "/contact/"
+  en:
+    - title: "Home"
+      url: "/en/"
+    - title: "About"
+      url: "/en/about/"
+    - title: "Contact"
+      url: "/en/contact/"
