@@ -4,26 +4,33 @@
       <stop offset="0%" style="stop-color:#78716C;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#92400E;stop-opacity:1" />
     </linearGradient>
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
     <linearGradient id="pathGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:0.8" />
       <stop offset="100%" style="stop-color:#10B981;stop-opacity:0.8" />
     </linearGradient>
   </defs>
   
-  <!-- Main stone/cairn - made larger -->
-  <ellipse cx="30" cy="32" rx="12" ry="6" fill="url(#stoneGradient)"/>
-  <ellipse cx="30" cy="24" rx="10" ry="5" fill="url(#stoneGradient)" opacity="0.9"/>
-  <ellipse cx="30" cy="17" rx="7" ry="3.5" fill="url(#stoneGradient)" opacity="0.8"/>
+  <!-- Mountain silhouette background - scaled for compact size -->
+  <path d="M6 33 L18 13 L30 23 L42 10 L54 20 L66 27 L78 17 L90 30 L102 33 Z" fill="url(#mountainGradient)" opacity="0.3"/>
   
-  <!-- Trail path - made larger and longer -->
-  <path d="M10 36 Q25 32 45 34 Q65 36 85 32" stroke="url(#pathGradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Main stone/cairn - scaled from main logo -->
+  <ellipse cx="30" cy="32" rx="10" ry="5" fill="url(#stoneGradient)"/>
+  <ellipse cx="30" cy="25" rx="7" ry="4" fill="url(#stoneGradient)" opacity="0.9"/>
+  <ellipse cx="30" cy="19" rx="5" ry="2.5" fill="url(#stoneGradient)" opacity="0.8"/>
   
-  <!-- GPS location pin - made larger -->
-  <circle cx="70" cy="14" r="6" fill="#F59E0B"/>
-  <circle cx="70" cy="14" r="3" fill="white"/>
+  <!-- Trail path - scaled from main logo -->
+  <path d="M9 35 Q21 32 36 33 Q51 35 66 32 Q81 31 96 33" stroke="url(#pathGradient)" stroke-width="3" fill="none" stroke-linecap="round"/>
   
-  <!-- Small camera icon - made larger -->
-  <rect x="90" y="8" width="12" height="9" rx="2" fill="#10B981" opacity="0.7"/>
-  <circle cx="96" cy="12.5" r="3" fill="none" stroke="#10B981" stroke-width="1.2"/>
-  <circle cx="96" cy="12.5" r="1.5" fill="#10B981"/>
+  <!-- GPS location pin - scaled from main logo -->
+  <circle cx="72" cy="13" r="5" fill="#F59E0B"/>
+  <circle cx="72" cy="13" r="2.5" fill="white"/>
+  
+  <!-- Camera icon - scaled from main logo -->
+  <rect x="93" y="10" width="10" height="8" rx="1.5" fill="#10B981" opacity="0.7"/>
+  <circle cx="98" cy="14" r="2.5" fill="none" stroke="#10B981" stroke-width="1"/>
+  <circle cx="98" cy="14" r="1.5" fill="#10B981"/>
 </svg>
