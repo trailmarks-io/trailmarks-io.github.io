@@ -3,11 +3,15 @@
         <div class="flex justify-between items-center py-4">
             <!-- Logo -->
             <div class="flex items-center">
-                <a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}" class="flex items-center space-x-2">
-                    <div class="w-8 h-8 bg-trailmark-blue rounded-lg flex items-center justify-center">
-                        <span class="text-white font-bold text-lg">T</span>
+                <a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}" class="flex items-center">
+                    <!-- Desktop Logo -->
+                    <div class="hidden sm:block">
+                        <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Trailmarks.io Logo" class="h-10 w-auto" />
                     </div>
-                    <span class="text-xl font-display font-semibold text-gray-900">Trailmarks.io</span>
+                    <!-- Mobile Logo (compact) -->
+                    <div class="block sm:hidden">
+                        <img src="{{ '/assets/images/logo-compact.svg' | relative_url }}" alt="Trailmarks.io" class="h-8 w-auto" />
+                    </div>
                 </a>
             </div>
             
