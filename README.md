@@ -47,7 +47,9 @@ This repository contains the source code for the Trailmarks.io homepage, a moder
 
 ### Development Guidelines
 
-**📖 See [DEVELOPMENT.md](DEVELOPMENT.md) for comprehensive guidelines on:**
+**📖 See [DEVELOPMENT.md](DEVELOPMENT.md) (English) | [DEVELOPMENT.de.md](DEVELOPMENT.de.md) (Deutsch)**
+
+**Comprehensive guidelines on:**
 
 - Tailwind CSS styling conventions and best practices
 - Custom components and utilities
