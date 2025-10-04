@@ -16,13 +16,7 @@ This repository contains the source code for the Trailmarks.io homepage, a moder
 
 ## 🛠️ Development
 
-### Prerequisites
-
-- Ruby 3.x
-- Node.js 18+
-- Git
-
-### Local Setup
+### Quick Start
 
 1. **Clone the repository**
    ```bash
@@ -32,26 +26,16 @@ This repository contains the source code for the Trailmarks.io homepage, a moder
 
 2. **Install dependencies**
    ```bash
-   # Ruby dependencies
-   bundle install
-
-   # Node.js dependencies
-   npm install
+   bundle install  # Ruby dependencies
+   npm install     # Node.js dependencies
    ```
 
-3. **Build CSS**
-   ```bash
-   npm run build-css
-   ```
-
-4. **Start development server**
+3. **Start development**
    ```bash
    npm run dev
-   # or manually:
-   bundle exec jekyll serve --livereload
    ```
 
-5. **Visit the site**
+4. **Visit the site**
    Open http://localhost:4000 in your browser
 
 ### Build Commands
@@ -60,6 +44,16 @@ This repository contains the source code for the Trailmarks.io homepage, a moder
 - `npm run build-css-prod` - Build CSS for production (minified)
 - `npm run dev` - Start development server with live reload
 - `npm run build` - Build production site
+
+### Development Guidelines
+
+**📖 See [DEVELOPMENT.md](DEVELOPMENT.md) for comprehensive guidelines on:**
+
+- Tailwind CSS styling conventions and best practices
+- Custom components and utilities
+- Responsive design patterns
+- Code standards and file structure
+- Testing and deployment procedures
 
 ## 🌐 Deployment
 
@@ -90,13 +84,28 @@ The site is automatically deployed via GitHub Actions:
 
 ## 🎨 Design System
 
-The site uses a custom Tailwind CSS configuration with Trailmarks brand colors:
+The site uses **Tailwind CSS** as the exclusive styling framework with a custom configuration.
 
-- **Blue**: #3B82F6 (primary)
-- **Green**: #10B981 (nature)
-- **Orange**: #F59E0B (energy)
-- **Stone**: #78716C (earth)
-- **Earth**: #92400E (ground)
+### Brand Colors
+
+- **trailmark-blue**: `#3B82F6` - Primary brand color
+- **trailmark-green**: `#10B981` - Nature, success states
+- **trailmark-orange**: `#F59E0B` - Energy, call-to-action
+- **trailmark-stone**: `#78716C` - Earth, neutral tones
+- **trailmark-earth**: `#92400E` - Ground, dark accents
+
+### Typography
+
+- **Font Display**: Poppins - For headlines and display text
+- **Font Sans**: Inter - For body text and UI elements
+
+### Custom Components
+
+- `.btn-primary` - Primary action buttons
+- `.btn-secondary` - Secondary action buttons
+- `.section-padding` - Standard section spacing
+
+See [DEVELOPMENT.md](DEVELOPMENT.md#-styling-with-tailwind-css) for detailed styling guidelines.
 
 ## 🌍 Languages
 
